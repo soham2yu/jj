@@ -184,7 +184,7 @@
   }
 
   .hover-lift {
-    @apply hover:translate-y-[-4px] transition-smooth hover:shadow-lg;
+    @apply hover:translate-y-[-4px] transition duration-300 ease-out hover:shadow-lg;
   }
 
   .card-gradient {
